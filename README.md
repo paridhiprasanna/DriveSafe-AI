@@ -23,16 +23,15 @@ All monitoring data is stored locally in an SQLite database and visualized throu
 
 # 🚀 Key Highlights
 
-- 👁️ Real-time Eye Aspect Ratio (EAR) monitoring
-- 😮 Intelligent Yawn Detection using Mouth Aspect Ratio (MAR)
-- 🎯 Head Pose Estimation for distraction detection
-- ⚠️ Dynamic Driver Risk Score calculation
-- 🔊 Real-time Audio Alerts
-- 🟥 Visual Alert Panel
-- ☕ Smart Break Recommendation System
-- 💾 SQLite Database Logging
-- 📊 Interactive Streamlit Dashboard
-- 📈 Driver Safety Score Analytics
+- Real-time Eye Aspect Ratio (EAR) monitoring
+- Intelligent Yawn Detection using Mouth Aspect Ratio (MAR)
+- Head Pose Estimation for distraction detection
+- Dynamic Driver Risk Score calculation
+- Real-time Audio & Visual Alerts
+- Smart Break Recommendation System
+- SQLite Database Logging
+- Interactive Streamlit Dashboard
+- Driver Safety Score & Risk Analytics
 
 ---
 
