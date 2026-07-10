@@ -1,6 +1,6 @@
 # 🛡️ DriveSafe AI
 
-> **An AI-powered Driver Drowsiness & Distraction Detection System built using Computer Vision, MediaPipe, OpenCV, and Streamlit.**
+> **An AI-powered Driver Drowsiness and Distraction Detection System that monitors driver fatigue in real time using Computer Vision, MediaPipe Face Mesh, OpenCV, and Streamlit.**
 
 ![Python](https://img.shields.io/badge/Python-3.x-blue?logo=python)
 ![OpenCV](https://img.shields.io/badge/OpenCV-Computer%20Vision-green?logo=opencv)
@@ -37,7 +37,7 @@ All monitoring data is stored locally in an SQLite database and visualized throu
 
 # 🎯 Objectives
 
-DriveSafe AI aims to:
+The primary objectives of DriveSafe AI are:
 
 - Reduce accidents caused by driver fatigue.
 - Detect early signs of drowsiness and distraction.
@@ -91,7 +91,7 @@ The score gradually increases during unsafe behaviour and decreases once the dri
 
 ## 🔊 Alert System
 
-- Audio Warning
+- Real-time Audio Alert
 - Visual Alert Panel
 - Driver Status Indicator
 - Break Recommendation
@@ -115,7 +115,11 @@ Interactive dashboard displaying:
 ---
 
 # 🖼️ Screenshots
-![image alt]()
+![image alt](https://github.com/paridhiprasanna/DriveSafe-AI/blob/62668e615748e11b422cc7d9f9a90e5a67081ef9/screenshots/DSAI-DASH1.png)
+![image alt](https://github.com/paridhiprasanna/DriveSafe-AI/blob/62668e615748e11b422cc7d9f9a90e5a67081ef9/screenshots/DSAI-DASH5.png)
+![image alt](https://github.com/paridhiprasanna/DriveSafe-AI/blob/62668e615748e11b422cc7d9f9a90e5a67081ef9/screenshots/DSAI-DASH6.png)
+
+
 ---
 
 # 🏗️ System Architecture
@@ -160,32 +164,14 @@ Interactive dashboard displaying:
 
 # 🛠️ Tech Stack
 
-### Programming Language
-
-- Python
-
-### Computer Vision
-
-- OpenCV
-- MediaPipe Face Mesh
-
-### Data Processing
-
-- NumPy
-- Pandas
-
-### Dashboard
-
-- Streamlit
-- Plotly
-
-### Database
-
-- SQLite
-
-### Audio
-
-- Pygame
+| Category | Technologies |
+|----------|--------------|
+| Programming | Python |
+| Computer Vision | OpenCV, MediaPipe |
+| Dashboard | Streamlit, Plotly |
+| Database | SQLite |
+| Data Processing | NumPy, Pandas |
+| Audio Alerts | Pygame |
 
 ---
 
