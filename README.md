@@ -205,7 +205,8 @@ This project was collaboratively developed by:
 - Paridhi Prasanna
 - Yarlagadda Mahathi
 - Matham Amolika
-- All contributors participated in the design, implementation, testing, and integration of the system.
+
+All contributors participated in the design, implementation, testing, and integration of the system.
 
 ---
 # 📌 Project Status
