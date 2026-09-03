@@ -231,6 +231,7 @@ All contributors participated in the design, implementation, testing, and integr
 - Deep learning-based fatigue prediction
 - Multi-driver session management
 
+
 # ⚙️ How to Run
 
 ### Prerequisites
@@ -245,32 +246,53 @@ All contributors participated in the design, implementation, testing, and integr
 
    ```bash
    git clone https://github.com/paridhiprasanna/DriveSafe-AI.git
-2. Navigate to the project folder
+   ```
 
-cd DriveSafe-AI
+2. **Navigate to the project folder**
 
-3. Create a virtual environment
+   ```bash
+   cd DriveSafe-AI
+   ```
 
-python -m venv venv
+3. **Create a virtual environment**
 
-4. Activate the virtual environment
+   ```bash
+   python -m venv venv
+   ```
 
-Windows:
+4. **Activate the virtual environment**
 
-venv\Scripts\activate
+   **Windows:**
 
-macOS/Linux:
+   ```bash
+   venv\Scripts\activate
+   ```
 
-source venv/bin/activate
+   **macOS/Linux:**
 
-5. Install the required dependencies
+   ```bash
+   source venv/bin/activate
+   ```
 
-pip install -r requirements.txt
+5. **Install the required dependencies**
 
-6. Run the application
+   ```bash
+   pip install -r requirements.txt
+   ```
 
-streamlit run dashboard.py
+6. **Run the application**
 
-7. Open the application
+   ```bash
+   streamlit run dashboard.py
+   ```
 
-The application will open automatically in your default web browser. If it does not, open the local URL displayed in the terminal.
+7. **Open the application**
+
+   The application will open automatically in your default web browser. If it does not, open the local URL displayed in the terminal.
+
+### Notes
+
+- Make sure your webcam is connected and accessible.
+- Allow camera access when prompted.
+- The application uses the webcam for real-time driver monitoring.
+- Monitoring data is stored locally using SQLite.
