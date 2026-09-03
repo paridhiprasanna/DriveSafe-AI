@@ -230,3 +230,47 @@ All contributors participated in the design, implementation, testing, and integr
 - Emergency contact notifications
 - Deep learning-based fatigue prediction
 - Multi-driver session management
+
+# ⚙️ How to Run
+
+### Prerequisites
+
+- Python 3.9 or above
+- A working webcam
+- Visual Studio Code (recommended)
+
+### Steps
+
+1. **Clone the repository**
+
+   ```bash
+   git clone https://github.com/paridhiprasanna/DriveSafe-AI.git
+2. Navigate to the project folder
+
+cd DriveSafe-AI
+
+3. Create a virtual environment
+
+python -m venv venv
+
+4. Activate the virtual environment
+
+Windows:
+
+venv\Scripts\activate
+
+macOS/Linux:
+
+source venv/bin/activate
+
+5. Install the required dependencies
+
+pip install -r requirements.txt
+
+6. Run the application
+
+streamlit run dashboard.py
+
+7. Open the application
+
+The application will open automatically in your default web browser. If it does not, open the local URL displayed in the terminal.
